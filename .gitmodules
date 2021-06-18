@@ -1,0 +1,15 @@
+[submodule "semester-2/cpp/boe-order-execution-priamoryki-master/googletest"]
+	path = semester-2/cpp/boe-order-execution-priamoryki-master/googletest
+	url = https://github.com/google/googletest.git
+[submodule "semester-2/cpp/calc-number-system-priamoryki-master/googletest"]
+	path = semester-2/cpp/calc-number-system-priamoryki-master/googletest
+	url = https://github.com/google/googletest.git
+[submodule "semester-2/cpp/inverted-index-priamoryki-master/googletest"]
+	path = semester-2/cpp/inverted-index-priamoryki-master/googletest
+	url = https://github.com/google/googletest.git
+[submodule "semester-2/cpp/monte-carlo-pi-priamoryki-master/googletest"]
+	path = semester-2/cpp/monte-carlo-pi-priamoryki-master/googletest
+	url = https://github.com/google/googletest.git
+[submodule "semester-2/cpp/seam-carving-priamoryki-master/googletest"]
+	path = semester-2/cpp/seam-carving-priamoryki-master/googletest
+	url = https://github.com/google/googletest.git

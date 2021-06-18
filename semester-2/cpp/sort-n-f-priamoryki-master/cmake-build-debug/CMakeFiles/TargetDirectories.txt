@@ -1,0 +1,7 @@
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/CMakeFiles/sort.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/CMakeFiles/test.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/test/CMakeFiles/test.dir
+D:/Downloads/CPP_Programs/sort-n-f-priamoryki-master/cmake-build-debug/test/CMakeFiles/edit_cache.dir

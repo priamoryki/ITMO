@@ -1,0 +1,2 @@
+D:\Apps\CLion\MinGW-w64\mingw64\bin\ar.exe qc libmonte_carlo_pi_lib.a  CMakeFiles/monte_carlo_pi_lib.dir/src/pi.cpp.obj CMakeFiles/monte_carlo_pi_lib.dir/src/random_gen.cpp.obj
+D:\Apps\CLion\MinGW-w64\mingw64\bin\ranlib.exe libmonte_carlo_pi_lib.a

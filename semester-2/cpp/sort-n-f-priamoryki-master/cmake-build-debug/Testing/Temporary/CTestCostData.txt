@@ -1,0 +1,9 @@
+sort 0 0
+sort_f 0 0
+sort_n 0 0
+sort_nf 0 0
+---
+sort
+sort_f
+sort_n
+sort_nf

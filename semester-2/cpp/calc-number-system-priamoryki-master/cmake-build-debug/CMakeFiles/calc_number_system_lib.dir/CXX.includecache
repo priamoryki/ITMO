@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/calc.h
+string
+-
+
+D:/Downloads/calc-number-system-priamoryki-master/src/calc.cpp
+calc.h
+D:/Downloads/calc-number-system-priamoryki-master/src/calc.h
+cctype
+-
+cmath
+-
+iostream
+-
+

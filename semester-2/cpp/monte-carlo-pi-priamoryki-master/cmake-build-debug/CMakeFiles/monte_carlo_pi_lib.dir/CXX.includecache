@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pi.h
+
+../include/random_gen.h
+
+D:/Downloads/monte-carlo-pi-priamoryki-master/src/pi.cpp
+pi.h
+D:/Downloads/monte-carlo-pi-priamoryki-master/src/pi.h
+random_gen.h
+D:/Downloads/monte-carlo-pi-priamoryki-master/src/random_gen.h
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pi.h
+
+D:/Downloads/monte-carlo-pi-priamoryki-master/src/main.cpp
+pi.h
+D:/Downloads/monte-carlo-pi-priamoryki-master/src/pi.h
+iostream
+-
+string
+-
+

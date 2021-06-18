@@ -1,0 +1,2 @@
+D:\Apps\CLion\MinGW-w64\mingw64\bin\ar.exe qc libcalc_number_system_lib.a  CMakeFiles/calc_number_system_lib.dir/src/calc.cpp.obj
+D:\Apps\CLion\MinGW-w64\mingw64\bin\ranlib.exe libcalc_number_system_lib.a

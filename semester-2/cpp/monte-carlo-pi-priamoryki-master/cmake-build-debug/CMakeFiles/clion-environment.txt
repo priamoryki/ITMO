@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\Apps\CLion\MinGW-w64\mingw64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/Apps/CLion/MinGW-w64/mingw64/bin/mingw32-make.exe

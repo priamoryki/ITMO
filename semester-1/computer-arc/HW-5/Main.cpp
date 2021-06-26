@@ -4,8 +4,8 @@
 
 using namespace std;
 
-float determinant(float **matrix, int n) {
-    float result = 1;
+long double determinant(float **matrix, int n) {
+    long double result = 1;
     for (int i = 0; i < n; i++) {
         int temp = i;
         for (int j = i + 1; j < n; j++) {
@@ -85,7 +85,7 @@ int main(int numOfArgs, char *args[]) {
     }
 
     auto time = omp_get_wtime();
-    float result = determinant(matrix, n);
+    long double result = determinant(matrix, n);
     time = omp_get_wtime() - time;
 
     delete matrix;
@@ -93,7 +93,7 @@ int main(int numOfArgs, char *args[]) {
         fprintf(file, "Determinant: %g\n", result);
         fclose(file);
     }
-    printf("Determinant: %g\nTime: %g sec\n", result, time);
+    printf("Determinant: %Lg\nTime: %g sec\n", result, time);
 
     return 0;
 }

@@ -2,6 +2,15 @@
 
 [Условия домашних заданий](http://www.kgeorgiy.info/courses/paradigms/homeworks.html)
 
+## Exam. Интерпретатор Spoon (JavaScript)
+
+Напишите интерпретатор языка программирования [Spoon](https://ru.wikipedia.org/wiki/Spoon)
+ * Создайте функцию `runProgram(program, input)` выполняющую программу на языке Spoon.
+ * Ввод символов должен осуществляться из строки `input`, а вывод — на консоль.
+ * Должна быть возможность ограничить число действий, выполняемых программой и потребляемую память (если превышено — выводить сообщение об ошибке).
+
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-2/paradigms/exam)
+
 ## Домашнее задание 12. Простые числа на Prolog
 
 Модификация:

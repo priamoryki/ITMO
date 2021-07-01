@@ -2,376 +2,710 @@
 
 [Условия домашних заданий](http://www.kgeorgiy.info/courses/prog-intro/homeworks.html)
 
-## Домашнее задание 13. Markdown to HTML
-
-Модификации
- * *Базовая*
-    * [Исходный код тестов](java/md2html/Md2HtmlTest.java)
-    * [Откомпилированные тесты](artifacts/md2html/Md2HtmlTest.jar)
- * *Mark* (32-35)
-    * Добавьте поддержку `~выделения цветом~`: `<mark>выделения цветом</mark>`
-    * [Исходный код тестов](java/md2html/Md2HtmlMarkTest.java)
-    * [Откомпилированные тесты](artifacts/md2html/Md2HtmlMarkTest.jar)
- * *Image* (36, 37)
-    * Добавьте поддержку ```![картинок](http://www.ifmo.ru/images/menu/small/p10.jpg)```:
-        ```&lt;img alt='картинок' src='http://www.ifmo.ru/images/menu/small/p10.jpg'&gt;```
-    * [Исходный код тестов](java/md2html/Md2HtmlImageTest.java)
-    * [Откомпилированные тесты](artifacts/md2html/Md2HtmlImageTest.jar)
- * *Link* (38, 39)
-    * Добавьте поддержку ```[ссылок с _выделением_](https://kgeorgiy.info)```:
-        ```&lt;a href='https://kgeorgiy.info'>ссылок с &lt;em>выделением&lt;/em>&lt;/a>```
-    * [Исходный код тестов](java/md2html/Md2HtmlLinkTest.java)
-    * [Откомпилированные тесты](artifacts/md2html/Md2HtmlLinkTest.jar)
-
-
 ## Домашнее задание 12. Обработка ошибок
 
-Модификации
- * *Базовая*
-    * Класс `ExpressionParser` должен реализовывать интерфейс
-        [Parser](java/expression/exceptions/Parser.java)
-    * Классы `CheckedAdd`, `CheckedSubtract`, `CheckedMultiply`,
-        `CheckedDivide` и `CheckedNegate` должны реализовывать интерфейс
-        [TripleExpression](java/expression/TripleExpression.java)
-    * Нельзя использовать типы `long` и `double`
-    * Нельзя использовать методы классов `Math` и `StrictMath`
-    * [Исходный код тестов](java/expression/exceptions/ExceptionsTest.java)
- * *AbsSqrt* (32-35)
+1.  Добавьте в программу вычисляющую выражения обработку ошибок, в том числе:
+    *   ошибки разбора выражений;
+    *   ошибки вычисления выражений.
+2.  Для выражения `1000000*x*x*x*x*x/(x-1)` вывод программы должен иметь следующий вид:
+
+    <pre>x       f
+    0       0
+    1       division by zero
+    2       32000000
+    3       121500000
+    4       341333333
+    5       overflow
+    6       overflow
+    7       overflow
+    8       overflow
+    9       overflow
+    10      overflow</pre>
+
+    Результат `division by zero` (`overflow`) означает, что в процессе вычисления произошло деление на ноль (переполнение).
+3.  При выполнении задания следует обратить внимание на дизайн и обработку исключений.
+4.  Человеко-читаемые сообщения об ошибках должны выводится на консоль.
+5.  Программа не должна «вылетать» с исключениями (как стандартными, так и добавленными).
+
+Модификация:
+ * *AbsSqrt*
     * Дополнительно реализуйте унарные операции:
         * `abs` – модуль числа, `abs -5` равно 5;
         * `sqrt` – квадратный корень, `sqrt 24` равно 4.
-    * [Исходный код тестов](java/expression/exceptions/ExceptionsAbsSqrtTest.java)
- * *MinMax* (36, 37)
-    * Реализуйте операции модификации *AbsSqrt*.
-    * Дополнительно реализуйте бинарные операции (минимальный приоритет):
-        * `min` – минимум, `2 min 3` равно 2;
-        * `max` – максимум, `2 max 3` равно 3.
-    * [Исходный код тестов](java/expression/exceptions/ExceptionsMinMaxTest.java)
- * *GcdLcm* (38, 39)
-    * Реализуйте операции модификации *AbsSqrt*.
-    * Дополнительно реализуйте бинарные операции (минимальный приоритет):
-        * `gcd` – НОД, `2 gcd -3` равно 1;
-        * `lcm` – НОК, `2 lcm -3` равно -6.
-    * [Исходный код тестов](java/expression/exceptions/ExceptionsGcdLcmTest.java)
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-12)
 
 ## Домашнее задание 11. Разбор выражений
 
-Модификации
- * *Базовая*
-    * Класс `ExpressionParser` должен реализовывать интерфейс
-        [Parser](java/expression/parser/Parser.java)
-    * Результат разбора должен реализовывать интерфейс
-        [TripleExpression](java/expression/TripleExpression.java)
-    * [Исходный код тестов](java/expression/parser/ParserTest.java)
- * *Bitwise* (32-35)
+1.  Доработайте предыдущее домашнее задание, так что бы выражение строилось по записи вида
+
+    <pre>x * (x - 2)*x + 1</pre>
+
+2.  В записи выражения могут встречаться: умножение `*`, деление `/`, сложение `+`, вычитание `-`, унарный минус `-`, целочисленные константы (в десятичной системе счисления, которые помещаются в 32-битный знаковый целочисленный тип), круглые скобки, переменные (`x`) и произвольное число пробельных символов в любом месте (но не внутри констант).
+3.  Приоритет операторов, начиная с наивысшего
+    1.  унарный минус;
+    2.  умножение и деление;
+    3.  сложение и вычитание.
+4.  Разбор выражений рекомендуется производить [методом рекурсивного спуска](https://ru.wikibooks.org/wiki/%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%B2/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D1%80%D0%B5%D0%BA%D1%83%D1%80%D1%81%D0%B8%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%BF%D1%83%D1%81%D0%BA%D0%B0). Алгоритм должен работать за линейное время.
+
+Модификация:
+ * *Bitwise*
     * Дополнительно реализуйте бинарные операции:
         * `&` – побитное И, приоритет меньше чем у `+` (`6 & 1 + 2` равно `6 & (1 + 2)` равно 2);
         * `^` – побитный XOR, приоритет меньше чем у `&` (`6 ^ 1 + 2` равно `6 ^ (1 + 2)` равно 5);
         * `|` – побитное ИЛИ, приоритет меньше чем у `^` (`6 | 1 + 2` равно `6 | (1 + 2)` равно 7);
-    * [Исходный код тестов](java/expression/parser/ParserBitwiseTest.java)
- * *NotCount* (36, 37)
-    * Реализуйте операции из модификации *Bitwise*.
-    * Дополнительно реализуйте унарные операции (приоритет как у унарного минуса):
-        * `~` – побитное отрицание, `~-5` равно 4;
-        * `count` – число установленных битов, `count -5` равно 31.
-    * [Исходный код тестов](java/expression/parser/ParserNotCountTest.java)
- * *FlipLow* (38, 39)
-    * Реализуйте операции из модификации *Bitwise*.
-    * Дополнительно реализуйте унарные операции (приоритет как у унарного минуса):
-        * `flip` – число с переставленными двоичными цифрами, `flip 12345` равно 9987, 
-                   `flip -12345` равно `-470548481`;
-        * `low` – минимальный установленный бит
-                 (как в [lowestOneBit](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Integer.html#lowestOneBit%28int%29)),
-                 `low 123456` равно 64.
-    * [Исходный код тестов](java/expression/parser/ParserFlipLowTest.java)
-
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-11)
 
 ## Домашнее задание 10. Выражения
 
-Модификации
- * *Базовая*
-    * Реализуйте интерфейс [Expression](java/expression/Expression.java)
-    * [Исходный код тестов](java/expression/ExpressionTest.java)
-        * Запускать c аргументом `easy` или `hard`
- * *Triple* (32-35)
-    * Дополнительно реализуйте интерфейс [TripleExpression](java/expression/TripleExpression.java)
-    * [Исходный код тестов](java/expression/TripleExpressionTest.java)
- * *Double* (36, 37)
-    * Дополнительно реализуйте интерфейс [DoubleExpression](java/expression/DoubleExpression.java)
-    * [Исходный код тестов](java/expression/DoubleExpressionTest.java)
- * *DoubleTriple* (38, 39)
-    * Дополнительно реализуйте интерфейсы 
-      [DoubleExpression](java/expression/DoubleExpression.java) и
-      [TripleExpression](java/expression/TripleExpression.java)
-    * [Исходный код тестов](java/expression/DoubleTripleExpressionTest.java)
+1.  Разработайте классы `Const`, `Variable`, `Add`, `Subtract`, `Multiply`, `Divide` для вычисления выражений с одной переменной в типе `int`.
+2.  Классы должны позволять составлять выражения вида
+
+    <pre>new Subtract(
+        new Multiply(
+            new Const(2),
+            new Variable("x")
+        ),
+        new Const(3)
+    ).evaluate(5)</pre>
+
+    При вычислении такого выражения вместо каждой переменной подставляется значение, переданное в качестве параметра методу `evaluate` (на данном этапе имена переменных игнорируются). Таким образом, результатом вычисления приведенного примера должно стать число 7.
+3.  Метод `toString` должен выдавать запись выражения в полноскобочной форме. Например
+
+    <pre>new Subtract(
+        new Multiply(
+            new Const(2),
+            new Variable("x")
+        ),
+        new Const(3)
+    ).toString()</pre>
+
+    должен выдавать `((2 * x) - 3)`.
+4.  _Сложный вариант._ Метод `toMiniString` должен выдавать выражение с минимальным числом скобок. Например
+
+    <pre>new Subtract(
+        new Multiply(
+            new Const(2),
+            new Variable("x")
+        ),
+        new Const(3)
+    ).toMiniString()</pre>
+
+    должен выдавать `2 * x - 3`.
+5.  Реализуйте метод `equals`, проверяющий, что два выражения совпадают. Например,
+
+    <pre>new Multiply(new Const(2), new Variable("x"))
+        .equals(new Multiply(new Const(2), new Variable("x")))</pre>
+
+    должно выдавать `true`, а
+
+    <pre>new Multiply(new Const(2), new Variable("x"))
+        .equals(new Multiply(new Variable("x"), new Const(2)))</pre>
+
+    должно выдавать `false`.
+6.  Для тестирования программы должен быть создан класс `Main`, который вычисляет значение выражения `x<sup>2</sup>−2x+1`, для `x`, заданного в командной строке.
+7.  При выполнении задания следует обратить внимание на:
+    *   Выделение общего интерфейса создаваемых классов.
+    *   Выделение абстрактного базового класса для бинарных операций.
+
+Модификация:
+ * *Triple*
+    * Дополнительно реализуйте интерфейс [TripleExpression](https://github.com/priamoryki/ITMO/blob/main/semester-1/prog-intro/HW-10/expression/TripleExpression.java)
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-10)
 
 ## Домашнее задание 9. Игра m,n,k
 
-Модификации
- * *Матчи* (32, 33)
-    * Добавьте поддержку матчей: последовательность игр до указанного числа побед
-    * Стороны в матче должны меняться каждую игру
- * *Турнир* (34, 35)
+1.  Реализуйте [игру m,n,k](https://en.wikipedia.org/wiki/M,n,k-game).
+2.  Добавьте обработку ошибок ввода пользователя.
+3.  _Простая версия_. Проверку выигрыша можно производить за _O(nmk)_.
+4.  _Сложная версия_.
+    *   Проверку выигрыша нужно производить за _O(k)_.
+    *   Предотвратите жульничество: у игрока не должно быть возможности достать `Board` из `Position`.
+5.  _Бонусная версия_. Реализуйте `Winner` — игрок, который выигрывает всегда, когда это возможно (против любого соперника).
+
+Модификация:
+ * *Турнир*
     * Добавьте поддержку кругового турнира для нескольких участников из _c_ кругов
     * Выведите таблицу очков по схеме:
         * 3 очка за победу
         * 1 очко за ничью
         * 0 очков за поражение
- * *Multiplayer* (36, 37)
-    * Добавьте поддержку значков `-` и `|`
-    * Добавьте возможность игры для 3 и 4 игроков
- * *Ромб* (36-39)
-    * Добавить поддержку доски в форме ромба (квадрата, повернутого на 45°)
- * *Дополнительные ходы* (38, 39)
-    * Если в результате хода игрока на доске появляется новая последовательность
-      из 4+ одинаковых символов, то он делает дополнительный ход
-    * Игрок может сделать несколько дополнительных ходов подряд
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-9)
 
+## Домашнее задание 8. Чемпионат
+
+1.  Решите как можно больше задач Чемпионата северо-запада России по программированию 2019.
+2.  Материалы соревнования:
+    *   [PCMS](https://pcms.itmo.ru/): Java. North-Western Russia Regional Contest - 2019
+    *   [Условия задач](https://nerc.itmo.ru/archive/2019/northern/nwrrc-2019-statements.pdf)
+    *   [Разбор задач](https://nerc.itmo.ru/archive/2019/northern/nwrrc-2019-tutorials.pdf)
+3.  Задачи для решения
+
+    <table>
+
+    <tbody>
+
+    <tr>
+
+    <th colspan="2">Задача</th>
+
+    <th>Тема</th>
+
+    <th>Сложность</th>
+
+    </tr>
+
+    <tr>
+
+    <td>A.</td>
+
+    <td>Accurate Movement</td>
+
+    <td>Формула</td>
+
+    <td>5</td>
+
+    </tr>
+
+    <tr>
+
+    <td>B.</td>
+
+    <td>Bad Treap</td>
+
+    <td>Циклы</td>
+
+    <td>10</td>
+
+    </tr>
+
+    <tr>
+
+    <td>C.</td>
+
+    <td>Cross-Stitch</td>
+
+    <td>Графы</td>
+
+    <td>40</td>
+
+    </tr>
+
+    <tr>
+
+    <td>D.</td>
+
+    <td>Double Palindrome</td>
+
+    <td>Массивы</td>
+
+    <td>40</td>
+
+    </tr>
+
+    <tr>
+
+    <td>E.</td>
+
+    <td>Equidistant</td>
+
+    <td>Деревья</td>
+
+    <td>30</td>
+
+    </tr>
+
+    <tr>
+
+    <td>H.</td>
+
+    <td>High Load Database</td>
+
+    <td>Массивы</td>
+
+    <td>20</td>
+
+    </tr>
+
+    <tr>
+
+    <td>I.</td>
+
+    <td>Ideal Pyramid</td>
+
+    <td>Циклы</td>
+
+    <td>15</td>
+
+    </tr>
+
+    <tr>
+
+    <td>J.</td>
+
+    <td>Just the Last Digit</td>
+
+    <td>Матрицы</td>
+
+    <td>20</td>
+
+    </tr>
+
+    <tr>
+
+    <td>K.</td>
+
+    <td>King’s Children</td>
+
+    <td>Массивы</td>
+
+    <td>40</td>
+
+    </tr>
+
+    <tr>
+
+    <td>M.</td>
+
+    <td>Managing Difficulties</td>
+
+    <td>Коллекции</td>
+
+    <td>10</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-8)
 
 ## Домашнее задание 7. Разметка
 
-Исходный код тестов:
+1.  Разработайте набор классов для текстовой разметки.
+2.  Класс <tt>Paragraph</tt> может содержать произвольное число других элементов разметки и текстовых элементов.
+3.  Класс <tt>Text</tt> – текстовый элемент.
+4.  Классы разметки <tt>Emphasis</tt>, <tt>Strong</tt>, <tt>Strikeout</tt> – выделение, сильное выделение и зачеркивание. Элементы разметки могут содержать произвольное число других элементов разметки и текстовых элементов.
+5.  Все классы должны реализовывать метод <tt>toMarkdown([StringBuilder](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/StringBuilder.html))</tt>, которой должен генерировать [Markdown](https://ru.wikipedia.org/wiki/Markdown)-разметку по следующим правилам:
+    1.  текстовые элементы выводятся как есть;
+    2.  выделенный текст окружается символами '<tt>*</tt>';
+    3.  сильно выделенный текст окружается символами '<tt>__</tt>';
+    4.  зачеркнутый текст окружается символами '<tt>~</tt>'.
+6.  Следующий код должен успешно компилироваться:
 
- * [MarkdownTest.java](java/markup/MarkdownTest.java)
- * [AbstractTest.java](java/markup/AbstractTest.java)
+    <pre>    Paragraph paragraph = new Paragraph(List.of(
+            new Strong(List.of(
+                new Text("1"),
+                new Strikeout(List.of(
+                    new Text("2"),
+                    new Emphasis(List.of(
+                        new Text("3"),
+                        new Text("4")
+                    )),
+                    new Text("5")
+                )),
+                new Text("6")
+            ))
+        ));</pre>
 
-Модификации
- * *HTML* (32, 33)
-    * Дополнительно реализуйте метод `toHtml`, генерирующий HTML-разметку:
-      * выделеный текст окружается тегом `em`;
-      * сильно выделеный текст окружается тегом `strong`;
-      * зачеркнутый текст окружается тегом `s`.
-    * [Исходный код тестов](java/markup/HtmlTest.java)
- * *BBCode* (34, 35)
+    Вызов <tt>paragraph.toMakdown(new StringBuilder())</tt> должен заполнять переданный <tt>StringBuilder</tt> следующим содержимым:
+
+    <pre>    __1~2*34*5~6__</pre>
+
+7.  Разработанные классы должны находиться в пакете <tt>markup</tt>.
+
+Модификация:
+ * *BBCode*
     * Дополнительно реализуйте метод `toBBCode`, генерирующий [BBCode](https://en.wikipedia.org/wiki/BBCode)-разметку:
       * выделеный текст окружается тегом `i`;
       * сильно выделеный текст окружается тегом `b`;
       * зачеркнутый текст окружается тегом `s`.
-    * [Исходный код тестов](java/markup/BBCodeTest.java)
- * *TexList*
-    * Дополнительно реализуйте метод `toTeX`, генерирующий TeX-разметку:
-      * выделеный текст заключается в `\emph{` и `}`;
-      * сильно выделеный текст заключается в `\textbf{` и `}`;
-      * зачеркнутый текст заключается в `\textst{` и `}`.
-    * Добавьте поддержку:
-      * Нумерованных списков (класс `OrderedList`, окружение `enumerate`): последовательность элементов
-      * Ненумерованных списков (класс `UnorderedList`, окружение `itemize`): последовательность элементов
-      * Элементов списка (класс `ListItem`, тег `\item`: последовательность абзацев и списков
-    * Для новых классов поддержка Markdown не требуется
-    * [Исходный код тестов](java/markup/TexListTest.java)
- * *BBCodeList*
-    * Сделайте модификацию *BBCode*
-    * Добавьте поддержку:
-      * Нумерованных списков (класс `OrderedList`, тег `list=1`): последовательность элементов
-      * Ненумерованных списков (класс `UnorderedList`, тег `list`): последовательность элементов
-      * Элементов списка (класс `ListItem`, открывающий тег `*`): последовательность абзацев и списков
-    * Для новых классов поддержка Markdown не требуется
-    * [Исходный код тестов](java/markup/BBCodeListTest.java)
-
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-7)
 
 ## Домашнее задание 6. Подсчет слов++
 
-Исходный код тестов:
+1.  Разработайте класс `WordStatIndex`, который будет подсчитывать статистику встречаемости слов во входном файле.
+2.  Словом называется непрерывная последовательность букв, апострофов и тире (Unicode category Punctuation, Dash). Для подсчета статистики, слова приводятся к нижнему регистру.
+3.  Выходной файл должен содержать все различные слова, встречающиеся во входном файле, в порядке их появления. Для каждого слова должна быть выведена одна строка, содержащая слово, число его вхождений во входной файл и номера вхождений этого слова среди всех слов во входном файле.
+4.  Имена входного и выходного файла задаются в качестве аргументов командной строки. Кодировка файлов: UTF-8.
+5.  Программа должна работать за линейное от размера входного файла время.
+6.  Для реализации программы используйте Collections Framework.
+7.  _Сложный вариант._ Реализуйте и примените класс `IntList`, компактно хранящий список целых чисел.
+8.  Примеры работы программы:
 
-* [WordStatIndexTest.java](java/wordStat/WordStatIndexTest.java)
-* [WordStatIndexChecker.java](java/wordStat/WordStatIndexChecker.java)
+    <table class="black">
 
-Откомпилированные тесты: [WordStatIndexTest.jar](artifacts/wordStat/WordStatIndexTest.jar)
+    <tbody>
 
-Модификации
- * *LineIndex*  (32, 33)
-    * Вместо номеров вхождений во всем файле надо указывать
-      `<номер строки>:<номер в строке>`
-    * Класс должен иметь имя `WordStatLineIndex`
-    * [Исходный код тестов](java/wordStat/WordStatLineIndexTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatLineIndexTest.jar)
- * *SortedLineIndex* (34, 35)
+    <tr>
+
+    <th>Входной файл</th>
+
+    <th>Выходной файл</th>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>    To be, or not to be, that is the question:</pre>
+
+    </td>
+
+    <td>
+
+    <pre>    to 2 1 5
+        be 2 2 6
+        or 1 3
+        not 1 4
+        that 1 7
+        is 1 8
+        the 1 9
+        question 1 10</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>    Monday's child is fair of face.
+        Tuesday's child is full of grace.</pre>
+
+    </td>
+
+    <td>
+
+    <pre>    monday's 1 1
+        child 2 2 8
+        is 2 3 9
+        fair 1 4
+        of 2 5 11
+        face 1 6
+        tuesday's 1 7
+        full 1 10
+        grace 1 12</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>    Шалтай-Болтай
+        Сидел на стене.
+        Шалтай-Болтай
+        Свалился во сне.</pre>
+
+    </td>
+
+    <td>
+
+    <pre>    шалтай-болтай 2 1 5
+        сидел 1 2
+        на 1 3
+        стене 1 4
+        свалился 1 6
+        во 1 7
+        сне 1 8</pre>
+
+    </td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+Модификация:
+ * *SortedLineIndex*
     * В выходном файле слова должны быть упорядочены в лексикографическом порядке
     * Вместо номеров вхождений во всем файле надо указывать
       `<номер строки>:<номер в строке>`
     * Класс должен иметь имя `WordStatSortedLineIndex`
-    * [Исходный код тестов](java/wordStat/WordStatSortedLineIndexTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatSortedLineIndexTest.jar)
- * *CountLineIndex*  (36, 37)
-    * В выходном файле слова должны быть упорядочены по возрастанию числа
-      вхождений, а при равном числе вхождений – по порядку первого вхождения
-      во входном файле.
-    * Вместо номеров вхождений во всем файле надо указывать
-      `<номер строки>:<номер в строке>`
-    * Класс должен иметь имя `WordStatCountLineIndex`
-    * [Исходный код тестов](java/wordStat/WordStatCountLineIndexTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatCountLineIndexTest.jar)
- * *CountFirstIndex*
-    * В выходном файле слова должны быть упорядочены по возрастанию числа
-      вхождений, а при равном числе вхождений – по порядку первого вхождения
-      во входном файле.
-    * Вместо номеров вхождений во всем файле надо указывать
-      только первое вхождение в каждой строке
-    * Класс должен иметь имя `WordStatCountFirstIndex`
-    * [Исходный код тестов](java/wordStat/WordStatCountFirstIndexTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatCountFirstIndexTest.jar)
-
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-6)
 
 ## Домашнее задание 5. Свой сканнер
 
-Исходный код тестов:
+1.  Реализуйте свой аналог класса `Scanner` на основе `Reader`.
+2.  Примените разработанный `Scanner` для решения задания «Реверс».
+3.  Примените разработанный `Scanner` для решения задания «Статистика слов».
+4.  Код, управляющий чтением должен быть общим.
+5.  _Сложный вариант_. Код, выделяющий числа и слова должен быть общим.
+6.  При реализации блочного чтения обратите внимание на слова/числа, пересекающие границы блоков, особенно — больше одного раза.
 
-* [FastReverseTest.java](java/reverse/FastReverseTest.java)
-
-Откомпилированные тесты: [FastReverseTest.jar](artifacts/reverse/FastReverseTest.jar)
-Модификации
- * *Hex* (32, 33)
-    * Во вводе и выводе используются числа в шестнадцатеричной системе счисления
-    * Класс должен иметь имя `ReverseHex`
-    * [Исходный код тестов](java/reverse/FastReverseHexTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/FastReverseHexTest.jar)
- * *Abc* (34, 35)
+Модификация:
+ * *Abc*
     * Во вводе и выводе используются числа, записаные буквами:
       нулю соответствует буква `a`, единице – `b` и так далее
     * Класс должен иметь имя `ReverseAbc`
-    * [Исходный код тестов](java/reverse/FastReverseAbcTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/FastReverseAbcTest.jar)
- * *HexDec* (36, 37)
-    * На вход подаются десятичные и шестнадцатеричные числа
-    * Шестнадцатеричные числа имеют префикс `0x`
-    * Класс должен иметь имя `ReverseHexDec`
-    * [Исходный код тестов](java/reverse/FastReverseHexDecTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/FastReverseHexDecTest.jar)
- * *HexAbc* (38, 39)
-    * На вход подаются десятичные и шестнадцатеричные числа
-    * Шестнадцатеричные числа имеют префикс `0x`
-    * Десятеричные числа могут быть записаны буквами
-    * Класс должен иметь имя `ReverseHexAbc`
-    * [Исходный код тестов](java/reverse/FastReverseHexAbcTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/FastReverseHexAbcTest.jar)
-
+  
+  [Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-5)
 
 ## Домашнее задание 4. Подсчет слов
 
-Исходный код тестов:
+1.  Разработайте класс `WordStat`, который будет подсчитывать статистику встречаемости слов во входном файле.
+2.  Словом называется непрерывная последовательность букв, апострофов и тире (Unicode category [Punctuation, Dash](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#DASH_PUNCTUATION)). Для подсчета статистики, слова приводятся к нижнему регистру.
+3.  Выходной файл должен содержать все различные слова, встречающиеся во входном файле, в порядке их появления. Для каждого слова должна быть выведена одна строка, содержащая слово и число его вхождений во входной файл.
+4.  Имена входного и выходного файла задаются в качестве аргументов командной строки. Кодировка файлов: UTF-8.
+5.  Примеры работы программы:
 
-* [WordStatInputTest.java](java/wordStat/WordStatInputTest.java)
-* [WordStatChecker.java](java/wordStat/WordStatChecker.java)
+    <table class="black">
 
-Откомпилированные тесты: [WordStatInputTest.jar](artifacts/wordStat/WordStatInputTest.jar)
+    <tbody>
 
-Модификации
- * *InputPrefix* (32, 33)
-    * Выходной файл должен содержать все различные префиксы длины 3
-      слов встречающихся во входном файле, в порядке их появления.
-      Слова длины меньшей 3 игнорируются.
-    * Класс должен иметь имя `WordStatInputPrefix`
-    * [Исходный код тестов](java/wordStat/WordStatInputPrefixTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatInputPrefixTest.jar)
- * *InputShingles* (34, 35)
+    <tr>
+
+    <th>Входной файл</th>
+
+    <th>Выходной файл</th>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>To be, or not to be, that is the question:</pre>
+
+    </td>
+
+    <td>
+
+    <pre>to 2
+    be 2
+    or 1
+    not 1
+    that 1
+    is 1
+    the 1
+    question 1</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>Monday's child is fair of face.
+    Tuesday's child is full of grace.</pre>
+
+    </td>
+
+    <td>
+
+    <pre>monday's 1
+    child 2
+    is 2
+    fair 1
+    of 2
+    face 1
+    tuesday's 1
+    full 1
+    grace 1</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td style="vertical-align: top">
+
+    <pre>Шалтай-Болтай
+    Сидел на стене.
+    Шалтай-Болтай
+    Свалился во сне.</pre>
+
+    </td>
+
+    <td>
+
+    <pre>шалтай-болтай 2
+    сидел 1
+    на 1
+    стене 1
+    свалился 1
+    во 1
+    сне 1</pre>
+
+    </td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+Модификация:
+ * *InputShingles*
     * Выходной файл должен содержать все различные подстроки длины 3
       слов встречающихся во входном файле, в порядке их появления.
       Слова длины меньшей 3 игнорируются.
     * Класс должен иметь имя `WordStatInputShingles`
-    * [Исходный код тестов](java/wordStat/WordStatInputShinglesTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatInputShinglesTest.jar)
- * *WordsPrefix* (для 36, 37)
-    * Выходной файл должен содержать все различные префиксы длины 3
-      слов встречающихся во входном файле, в лексикографическом порядке.
-      Слова длины меньшей 3 игнорируются.
-    * Класс должен иметь имя `WordStatWordsPrefix`
-    * [Исходный код тестов](java/wordStat/WordStatWordsPrefixTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatWordsPrefixTest.jar)
- * *CountShingles* (для 38, 39)
-    * Выходной файл должен содержать все различные подстроки длины 3
-      слов встречающихся во входном файле, упорядоченые по возрастанию числа
-      вхождений, а при равном числе вхождений – по порядку первого вхождения
-      во входном файле.
-    * Класс должен иметь имя `WordStatCountShingles`
-    * [Исходный код тестов](java/wordStat/WordStatCountShinglesTest.java)
-    * [Откомпилированные тесты](artifacts/wordStat/WordStatCountShinglesTest.jar)
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-4)
 
 ## Домашнее задание 3. Реверс
 
-Исходный код тестов:
+1.  Разработайте класс `Reverse`, читающий числа из [стандартного ввода](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#in), и выводящий их на [стандартный вывод](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#out) в обратном порядке.
+2.  В каждой строке входа содержится некоторое количество целых чисел (может быть 0). Числа разделены пробелами. Каждое число помещается в тип `int`.
+3.  Порядок строк в выходе должен быть обратным по сравнению с порядком строк во входе. Порядок чисел в каждой строке так же должен быть обратным к порядку чисел во входе.
+4.  Вход содержит не более 10<sup>6</sup> чисел и строк.
+5.  Для чтения чисел используйте класс [Scanner](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html).
+6.  Примеры работы программы:
 
-* [ReverseTest.java](java/reverse/ReverseTest.java)
-* [ReverseChecker.java](java/reverse/ReverseChecker.java)
+    <table class="black">
 
-Откомпилированные тесты: [ReverseTest.jar](artifacts/reverse/ReverseTest.jar)
+    <tbody>
 
-Модификации:
- * *Max* (для 32, 33)
-    * Рассмотрим входные данные как (не полностью определенную) матрицу,
-      вместо каждого числа выведите максимум из чисел в его столбце и строке
-    * Класс должен иметь имя `ReverseMax`
-    * [Исходный код тестов](java/reverse/ReverseMaxTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/ReverseMaxTest.jar)
- * *Min* (для 34, 35)
+    <tr>
+
+    <th>Ввод</th>
+
+    <th>Вывод</th>
+
+    </tr>
+
+    <tr>
+
+    <td>
+
+    <pre>1 2
+    3</pre>
+
+    </td>
+
+    <td>
+
+    <pre>3
+    2 1</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td>
+
+    <pre>3
+    2 1</pre>
+
+    </td>
+
+    <td>
+
+    <pre>1 2
+    3</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td>
+
+    <pre>1
+
+    2 -3</pre>
+
+    </td>
+
+    <td>
+
+    <pre>-3 2
+
+    1</pre>
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td>
+
+    <pre>1     2
+    3     4</pre>
+
+    </td>
+
+    <td>
+
+    <pre>4 3
+    2 1</pre>
+
+    </td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+Модификация:
+ * *Min*
     * Рассмотрим входные данные как (не полностью определенную) матрицу,
       вместо каждого числа выведите минимум из чисел в его столбце и строке
     * Класс должен иметь имя `ReverseMin`
-    * [Исходный код тестов](java/reverse/ReverseMinTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/ReverseMinTest.jar)
- * *Avg* (для 36-39)
-    * Рассмотрим входные данные как (не полностью определенную) матрицу,
-      вместо каждого числа выведите среднее из чисел в его столбце и строке
-    * Класс должен иметь имя `ReverseAvg`
-    * [Исходный код тестов](java/reverse/ReverseAvgTest.java)
-    * [Откомпилированные тесты](artifacts/reverse/ReverseAvgTest.jar)
-
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-3)
 
 ## Домашнее задание 2. Сумма чисел
 
-Для того, чтобы протестировать исходную программу:
+1.  Разработайте класс `Sum`, который при запуске из командной строки будет складывать переданные в качестве аргументов целые числа и выводить их сумму на консоль.
+2.  Примеры запуска программы:
 
- 1. Скачайте откомпилированные тесты ([SumTest.jar](artifacts/sum/SumTest.jar))
- 1. Откомпилируйте `Sum.java`
- 1. Проверьте, что создался `Sum.class`
- 1. В каталоге, в котором находится `Sum.class` выполните команду
-    ```
-       java -jar <путь к SumTest.jar>
-    ```
-    * Например, если `SumTest.jar` находится в текущем каталоге, выполните команду
-    ```
-        java -jar SumTest.jar
-    ```
+    <dl>
 
-Исходный код тестов:
+    `java Sum 1 2 3`
 
-* [SumTest.java](java/sum/SumTest.java)
-* [SumChecker.java](java/sum/SumChecker.java)
-* [Базовые классы](java/base/)
+    <dd>Результат: 6</dd>
 
-Модификации:
- * *Long* (для 32, 33)
-    * Входные данные являются 64-битными целыми числами
-    * Класс должен иметь имя `SumLong`
-    * [Исходный код тестов](java/sum/SumLongTest.java)
-    * [Откомпилированные тесты](artifacts/sum/SumLongTest.jar)
- * *Float* (для 34, 35)
+    `java Sum 1 2 -3`
+
+    <dd>Результат: 0</dd>
+
+    `java Sum "1 2 3"`
+
+    <dd>Результат: 6</dd>
+
+    `java Sum "1 2" " 3"`
+
+    <dd>Результат: 6</dd>
+
+    `java Sum " "`
+
+    <dd>Результат: 0</dd>
+
+    </dl>
+
+    Аргументы могут содержать:
+    *   цифры;
+    *   знаки `+` и `-`;
+    *   произвольные [пробельные символы](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#isWhitespace(char)).
+3.  При выполнении задания можно считать, что для представления входных данных и промежуточных результатов достаточен тип `int`.
+4.  Перед выполнением задания ознакомьтесь с документацией к классам [String](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html) и [Integer](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Integer.html).
+5.  Для отладочного вывода используйте [System.err](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#err), тогда он будет игнорироваться проверяющей программой.
+
+Модификация:
+ * *Float*
     * Входные данные являются 32-битными числами с формате с плавающей точкой
     * Класс должен иметь имя `SumFloat`
-    * [Исходный код тестов](java/sum/SumFloatTest.java)
-    * [Откомпилированные тесты](artifacts/sum/SumFloatTest.jar)
- * *LongSpace* (для 36, 37)
-    * Входные данные являются 64-битными целыми числами
-    * Класс должен иметь имя `SumLongSpace`
-    * Числа разделяются [пробелами-разделителями](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#SPACE_SEPARATOR)
-    * [Исходный код тестов](java/sum/SumLongSpaceTest.java)
-    * [Откомпилированные тесты](artifacts/sum/SumLongSpaceTest.jar)
- * *BigIntegerSpace* (для 38, 39)
-    * Входные данные помещаются в тип [BigInteger](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/math/BigInteger.html)
-    * Класс должен иметь имя `SumBigIntegerSpace`
-    * Числа разделяются [пробелами-разделителями](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#SPACE_SEPARATOR)
-    * [Исходный код тестов](java/sum/SumBigIntegerSpaceTest.java)
-    * [Откомпилированные тесты](artifacts/sum/SumBigIntegerSpaceTest.jar)
-
-
-
-## Домашнее задание 1. Запусти меня!
-
- 1. Скачайте исходный код ([RunMe.java](java/RunMe.java))
- 1. Откомпилируйте код (должен получиться `RunMe.class`)
- 1. Запустите класс `RunMe` с выданными вам аргументами командной строки
- 1. Следуйте выведенной инструкции
+  
+[Реализация](https://github.com/priamoryki/ITMO/tree/main/semester-1/prog-intro/HW-2)

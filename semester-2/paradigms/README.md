@@ -171,7 +171,7 @@
     println(expr(5));</pre>
 
     При вычислении такого выражения вместо каждой переменной подставляется значение, переданное в качестве параметра функции `expr` (на данном этапе имена переменных игнорируются). Таким образом, результатом вычисления приведенного примера должно стать число 7.
-3.  Тестовая программа должна вычислять выражение `x<sup>2</sup>−2x+1`, для `x` от 0 до 10.
+3.  Тестовая программа должна вычислять выражение x<sup>2</sup>−2x+1, для `x` от 0 до 10.
 4.  **Сложный вариант.** Требуется дополнительно написать функцию `parse`, осуществляющую разбор выражений, записанных в [обратной польской записи](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C). Например, результатом
 
     <pre>parse("x x 2 - * x * 1 +")(5)</pre>
@@ -221,25 +221,25 @@
 
         <tr>
 
-        <td>`i`</td>
+        <td>i</td>
 
-        <td>`int` (с детекцией переполнений)</td>
-
-        </tr>
-
-        <tr>
-
-        <td>`d`</td>
-
-        <td>`double`</td>
+        <td>int (с детекцией переполнений)</td>
 
         </tr>
 
         <tr>
 
-        <td>`bi`</td>
+        <td>d</td>
 
-        <td>`[BigInteger](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/math/BigInteger.html)`</td>
+        <td>double</td>
+
+        </tr>
+
+        <tr>
+
+        <td>bi</td>
+
+        <td><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/math/BigInteger.html">BigInteger</a></td>
 
         </tr>
 
@@ -269,7 +269,7 @@
 
         <tr>
 
-        <td>i</td>
+        <td>-i</td>
 
         <td>int (с детекцией переполнений)</td>
 
@@ -277,7 +277,7 @@
 
         <tr>
 
-        <td>d</td>
+        <td>-d</td>
 
         <td>double</td>
 
@@ -285,9 +285,9 @@
 
         <tr>
 
-        <td>bi</td>
+        <td>-b</td>
 
-        <td>[BigInteger](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/math/BigInteger.html)</td>
+        <td><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/math/BigInteger.html">BigInteger</a></td>
 
         </tr>
 
@@ -298,7 +298,7 @@
     *   Вторым аргументом командной строки программа должна принимать выражение для вычисления.
     *   Программа должна выводить результаты вычисления для всех целочисленных значений переменных из диапазона −2..2.
 3.  Реализация не должна содержать [непроверяемых преобразований типов](https://docs.oracle.com/javase/specs/jls/se11/html/jls-5.html#jls-5.1.9).
-4.  Реализация не должна использовать аннотацию `[@SuppressWarnings](https://docs.oracle.com/javase/specs/jls/se11/html/jls-9.html#jls-9.6.4.5)`.
+4.  Реализация не должна использовать аннотацию [@SuppressWarnings](https://docs.oracle.com/javase/specs/jls/se11/html/jls-9.html#jls-9.6.4.5).
 5.  При выполнении задания следует обратить внимание на простоту добавления новых типов и операциий.
 
 Модификация:

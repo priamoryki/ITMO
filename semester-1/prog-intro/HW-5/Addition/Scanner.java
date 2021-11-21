@@ -5,7 +5,7 @@ import java.io.*;
  */
 public class Scanner {
     private final BufferedReader reader;
-    private final char[] buffer = new char[1];
+    private final char[] buffer = new char[1024];
     private int id = 0;
     private int bufferSize = 0;
 

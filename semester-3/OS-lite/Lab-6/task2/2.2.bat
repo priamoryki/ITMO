@@ -1,0 +1,1 @@
+xcopy /z "D:\Важное\Учеба\Семестр 3\OS-lite\Lab-6\task2\2.bat" "\\%computername%\%computername%\"

@@ -1,0 +1,1400 @@
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1&amount=1&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4&amount=2&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9&amount=3&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=16&amount=4&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=25&amount=5&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=36&amount=6&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=49&amount=7&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=64&amount=8&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=81&amount=9&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=100&amount=10&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=121&amount=11&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=144&amount=12&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=169&amount=13&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=196&amount=14&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=225&amount=15&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=256&amount=16&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=289&amount=17&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=324&amount=18&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=361&amount=19&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=400&amount=20&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=441&amount=21&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=484&amount=22&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=529&amount=23&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=576&amount=24&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=625&amount=25&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=676&amount=26&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=729&amount=27&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=784&amount=28&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=841&amount=29&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=900&amount=30&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=961&amount=31&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1024&amount=32&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1089&amount=33&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1156&amount=34&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1225&amount=35&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1296&amount=36&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1369&amount=37&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1444&amount=38&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1521&amount=39&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1600&amount=40&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1681&amount=41&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1764&amount=42&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1849&amount=43&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=1936&amount=44&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2025&amount=45&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2116&amount=46&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2209&amount=47&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2304&amount=48&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2401&amount=49&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2500&amount=50&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2601&amount=51&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2704&amount=52&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2809&amount=53&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=2916&amount=54&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3025&amount=55&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3136&amount=56&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3249&amount=57&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3364&amount=58&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3481&amount=59&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3600&amount=60&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3721&amount=61&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3844&amount=62&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=3969&amount=63&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4096&amount=64&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4225&amount=65&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4356&amount=66&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4489&amount=67&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4624&amount=68&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4761&amount=69&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=4900&amount=70&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5041&amount=71&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5184&amount=72&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5329&amount=73&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5476&amount=74&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5625&amount=75&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5776&amount=76&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=5929&amount=77&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6084&amount=78&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6241&amount=79&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6400&amount=80&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6561&amount=81&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6724&amount=82&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=6889&amount=83&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7056&amount=84&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7225&amount=85&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7396&amount=86&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7569&amount=87&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7744&amount=88&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=7921&amount=89&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=8100&amount=90&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=8281&amount=91&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=8464&amount=92&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=8649&amount=93&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=8836&amount=94&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9025&amount=95&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9216&amount=96&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9409&amount=97&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9604&amount=98&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=9801&amount=99&submit=Submit" ^
+            --insecure
+curl "http://1d3p.wp.codeforces.com/new" ^
+            -H "Connection: keep-alive" ^
+            -H "Cache-Control: max-age=0" ^
+            -H "Origin: http://1d3p.wp.codeforces.com" ^
+            -H "Upgrade-Insecure-Requests: 1" ^
+            -H "DNT: 1" ^
+            -H "Content-Type: application/x-www-form-urlencoded" ^
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" ^
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ^
+            -H "Referer: http://1d3p.wp.codeforces.com/" ^
+            -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+            -H "Cookie: __utmc=71512449; __utmz=71512449.1630948778.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); evercookie_png=l1d6q2q7opwjsnjmu9; evercookie_etag=l1d6q2q7opwjsnjmu9; evercookie_cache=l1d6q2q7opwjsnjmu9; 70a7c28f3de=l1d6q2q7opwjsnjmu9; __utma=71512449.280757152.1630948778.1631287584.1631289539.7; JSESSIONID=A3CE9B6258A05F1B7F5CF8F028EDA499" ^
+            --data-raw "_af=34be50b38beccce4&proof=10000&amount=100&submit=Submit" ^
+            --insecure

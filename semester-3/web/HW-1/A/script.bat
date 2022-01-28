@@ -1,0 +1,1 @@
+curl http://wp.codeforces.com/1d1p/ -H "X-Secret: 6ff6b3"

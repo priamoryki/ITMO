@@ -1,0 +1,78 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> rj _ ^
+s 0 -> forward_1 0 ^
+s 1 -> forward_1 1 ^
+
+forward_1 < -> back_3 < <
+forward_1 0 -> forward_2 zero >
+forward_1 1 -> forward_2 one >
+
+forward_2 < -> forward_3 < >
+forward_2 0 -> forward_2 0 >
+forward_2 1 -> forward_2 1 >
+
+forward_3 _ -> rj _ ^
+forward_3 0 -> back_1 zero <
+forward_3 1 -> back_1 one <
+forward_3 zero -> forward_3 zero >
+forward_3 one -> forward_3 one >
+
+back_1 < -> back_2_first < <
+back_1 zero -> back_1 zero <
+back_1 one -> back_1 one <
+
+back_2_first zero -> check zero ^
+back_2_first one -> check one ^
+back_2_first 0 -> back_2 0 <
+back_2_first 1 -> back_2 1 <
+
+back_2 _ -> rj _ ^
+back_2 zero -> forward_1 zero >
+back_2 one -> forward_1 one >
+back_2 0 -> back_2 0 <
+back_2 1 -> back_2 1 <
+
+back_3 _ -> forward _ >
+back_3 zero -> back_3 zero <
+back_3 one -> back_3 one <
+
+check _ -> back _ <
+check 0 -> ac 0 ^
+check 1 -> ac 1 ^
+check < -> check < >
+check zero -> check zero >
+check one -> check one >
+
+
+
+forward_zero < -> forward_zero_after < >
+forward_zero zero -> forward_zero zero >
+forward_zero one -> forward_zero one >
+
+forward_one < -> forward_one_after < >
+forward_one zero -> forward_one zero >
+forward_one one -> forward_one one >
+
+forward_zero_after _ -> rj _ ^
+forward_zero_after zero -> back . <
+forward_zero_after one -> ac . ^
+forward_zero_after . -> forward_zero_after . >
+
+forward_one_after _ -> rj _ ^
+forward_one_after zero -> rj . ^
+forward_one_after one -> back . <
+forward_one_after . -> forward_one_after . >
+
+forward < -> rj < ^
+forward zero -> forward_zero _ >
+forward one -> forward_one _ >
+
+back . -> back . <
+back < -> back < <
+back zero -> back zero <
+back one -> back one <
+back _ -> forward _ >

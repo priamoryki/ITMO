@@ -1,0 +1,10 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> ac _ ^
+s 0 -> odd _ >
+
+odd _ -> rj _ >
+odd 0 -> s _ >

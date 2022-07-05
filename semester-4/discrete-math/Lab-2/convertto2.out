@@ -1,0 +1,40 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> ac _ ^
+s 0 -> begin_1 0 <
+s 1 -> begin_1 1 <
+s 2 -> begin_1 2 <
+
+begin_1 _ -> begin_2 | <
+begin_2 _ -> forward 0 ^
+
+forward _ -> back_1 _ <
+forward | -> forward | >
+forward 0 -> forward 0 >
+forward 1 -> forward 1 >
+forward 2 -> forward 2 >
+
+back_1 | -> finish_1 | >
+back_1 1 -> add_1 0 <
+back_1 2 -> add_1 1 <
+back_1 0 -> back_1 2 <
+
+add_1 | -> add_2 | <
+add_1 0 -> add_1 0 <
+add_1 1 -> add_1 1 <
+add_1 2 -> add_1 2 <
+
+add_2 _ -> forward 1 >
+add_2 0 -> forward 1 >
+add_2 1 -> add_2 0 <
+
+finish_1 | -> finish_2 _ <
+finish_1 _ -> finish_1 _ <
+finish_1 2 -> finish_1 _ >
+
+finish_2 _ -> ac _ >
+finish_2 0 -> finish_2 0 <
+finish_2 1 -> finish_2 1 <

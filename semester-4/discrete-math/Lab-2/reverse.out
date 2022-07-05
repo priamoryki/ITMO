@@ -1,0 +1,80 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> ac _ ^
+s 0 -> forward 0 >
+s 1 -> forward 1 >
+
+forward _ -> back _ <
+forward 0 -> forward 0 >
+forward 1 -> forward 1 >
+forward zero -> back zero >
+forward one -> back one >
+
+back _ -> result_forward_1 _ >
+back zero -> back zero <
+back one -> back one <
+back 0 -> append_zero zero >
+back 1 -> append_one one >
+
+append_zero _ -> back zero <
+append_zero zero -> append_zero zero >
+append_zero one -> append_zero one >
+
+append_one _ -> back one <
+append_one zero -> append_one zero >
+append_one one -> append_one one >
+
+result_forward_1 _ -> result_back_1 _ <
+result_forward_1 zero -> result_forward_1 0 >
+result_forward_1 one -> result_forward_1 1 >
+
+result_back_1 _ -> first_centre_forward _ >
+result_back_1 0 -> result_back_1 0 <
+result_back_1 1 -> result_back_1 1 <
+
+
+
+first_centre_forward _ -> ac _ <
+first_centre_forward zero -> result_back_2 zero <
+first_centre_forward one -> result_back_2 one <
+first_centre_forward 0 -> centre_forward zero >
+first_centre_forward 1 -> centre_forward one >
+
+centre_forward _ -> first_centre_back _ <
+centre_forward zero -> first_centre_back zero <
+centre_forward one -> first_centre_back one <
+centre_forward 0 -> centre_forward 0 >
+centre_forward 1 -> centre_forward 1 >
+
+first_centre_back _ -> ac _ >
+first_centre_back zero -> result_back_2 zero <
+first_centre_back one -> result_back_2 one <
+first_centre_back 0 -> centre_back zero <
+first_centre_back 1 -> centre_back one <
+
+centre_back _ -> first_centre_forward _ >
+centre_back zero -> first_centre_forward zero >
+centre_back one -> first_centre_forward one >
+centre_back 0 -> centre_back 0 <
+centre_back 1 -> centre_back 1 <
+
+
+
+result_back_2 _ -> result_forward_2 _ >
+result_back_2 zero -> result_back_2 _ <
+result_back_2 one -> result_back_2 _ <
+
+result_forward_2 _ -> result_forward_2 _ >
+result_forward_2 zero -> result_forward 0 >
+result_forward_2 one -> result_forward 1 >
+
+result_forward _ -> result_back _ <
+result_forward zero -> result_forward 0 >
+result_forward one -> result_forward 1 >
+
+result_back _ -> ac _ >
+result_back 0 -> result_back 0 <
+result_back 1 -> result_back 1 <

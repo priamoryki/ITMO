@@ -1,0 +1,21 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> ac _ ^
+s ( -> forward ( >
+s ) -> rj ) ^
+
+forward _ -> back_check _ <
+forward ( -> forward ( >
+forward ) -> back passed <
+forward passed -> forward passed >
+
+back _ -> rj _ ^
+back passed -> back passed <
+back ( -> forward passed >
+
+back_check ( -> rj ( ^
+back_check _ -> ac _ ^
+back_check passed -> back_check passed <

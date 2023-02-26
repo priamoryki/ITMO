@@ -13,3 +13,6 @@
 [submodule "semester-2/cpp/seam-carving-priamoryki-master/googletest"]
 	path = semester-2/cpp/seam-carving-priamoryki-master/googletest
 	url = https://github.com/google/googletest.git
+[submodule "semester-5/PHP/the-best-vk-bot"]
+	path = semester-5/PHP/the-best-vk-bot
+	url = https://github.com/priamoryki/the-best-vk-bot.git

@@ -16,3 +16,6 @@
 [submodule "semester-5/PHP/the-best-vk-bot"]
 	path = semester-5/PHP/the-best-vk-bot
 	url = https://github.com/priamoryki/the-best-vk-bot.git
+[submodule "semester-5/blockchain/itmo-blockchain"]
+	path = semester-5/blockchain/itmo-blockchain
+	url = https://github.com/priamoryki/itmo-blockchain.git

@@ -1,0 +1,41 @@
+digraph {
+	0 [label="var a", color=cyan, style=filled]
+	0 -> 1
+	0 -> 2
+	0 -> 3
+	1 [label=":", color=cyan, style=filled]
+	2 [label="Array", color=cyan, style=filled]
+	2 -> 4
+	2 -> 5
+	2 -> 6
+	3 [label=";", color=cyan, style=filled]
+	4 [label="<", color=cyan, style=filled]
+	5 [label="Map", color=cyan, style=filled]
+	5 -> 7
+	5 -> 8
+	5 -> 9
+	5 -> 10
+	5 -> 11
+	6 [label=">", color=cyan, style=filled]
+	7 [label="<", color=cyan, style=filled]
+	8 [label="Map", color=cyan, style=filled]
+	8 -> 12
+	8 -> 13
+	8 -> 14
+	8 -> 15
+	8 -> 16
+	9 [label=",", color=cyan, style=filled]
+	10 [label="String", color=cyan, style=filled]
+	11 [label=">", color=cyan, style=filled]
+	12 [label="<", color=cyan, style=filled]
+	13 [label="String", color=cyan, style=filled]
+	14 [label=",", color=cyan, style=filled]
+	15 [label="Array", color=cyan, style=filled]
+	15 -> 17
+	15 -> 18
+	15 -> 19
+	16 [label=">", color=cyan, style=filled]
+	17 [label="<", color=cyan, style=filled]
+	18 [label="Int", color=cyan, style=filled]
+	19 [label=">", color=cyan, style=filled]
+}

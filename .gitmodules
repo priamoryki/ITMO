@@ -19,3 +19,9 @@
 [submodule "semester-5/blockchain/itmo-blockchain"]
 	path = semester-5/blockchain/itmo-blockchain
 	url = https://github.com/priamoryki/itmo-blockchain.git
+[submodule "semester-6/GO/validator"]
+	path = semester-6/GO/validator
+	url = https://github.com/priamoryki/validator
+[submodule "semester-6/GO/go-course-for-students"]
+	path = semester-6/GO/go-course-for-students
+	url = https://github.com/priamoryki/go-course-for-students

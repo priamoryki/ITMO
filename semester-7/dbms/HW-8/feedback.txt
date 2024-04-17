@@ -1,0 +1,72 @@
+1.     Запросы из предыдущих ДЗ
+
+1.S. Students
+
+	Индекс мало/бесполезен: ДЗ-5.10 для create index Students_GroupId_Index on Students using hash (GroupId);
+
+1.G. Groups
+
+	Хэш-индекс на префикс упорядоченного индекса: create UNIQUE index Groups_GroupName_Index on Groups using hash (GroupName); create UNIQUE index Groups_GroupName_GroupId_Index on Groups using btree (GroupName, GroupId);
+	Индекс мало/бесполезен: ДЗ-5.1.2 для create UNIQUE index Groups_GroupId_Index on Groups using hash (GroupId);
+	Индекс мало/бесполезен: ДЗ-6.1.1 для create UNIQUE index Groups_GroupId_Index on Groups using hash (GroupId);
+	Приведено недостаточно примеров (хотя они существуют): create UNIQUE index Groups_GroupName_Index on Groups using hash (GroupName);
+
+1.C. Courses
+
+	Индекс мало/бесполезен: ДЗ-5.5.1 для create UNIQUE index Courses_CourseId_Index on Courses using hash (CourseId);
+	Индекс мало/бесполезен: ДЗ-5.5.2 для create UNIQUE index Courses_CourseId_Index on Courses using hash (CourseId);
+	Индекс мало/бесполезен: ДЗ-5.5.3 для create UNIQUE index Courses_CourseId_Index on Courses using hash (CourseId);
+
+1.L. Lecturers
+
+	Опечатка: Lecturers_LecturerName_ LecturerId_Index
+
+1.P. Plan
+
+	Unique индекс (а не должен): create UNIQUE index Plan_LecturerId_GroupId_CourseId on Plan using btree (LecturerId, GroupId);
+	Индекс мало/бесполезен: ДЗ-5.6.4 для create UNIQUE index Plan_CourseId_GroupId_Index on Plan using btree (CourseId, GroupId);
+	Индекс мало/бесполезен: ДЗ-5.10 для create UNIQUE index Plan_CourseId_GroupId_Index on Plan using btree (CourseId, GroupId);
+	Индекс мало/бесполезен: ДЗ-7.3.5 для create UNIQUE index Plan_CourseId_GroupId_Index on Plan using btree (CourseId, GroupId);
+
+1.M. Marks
+
+	Не хватает индекса: create index on Marks using btree (Mark, CourseId, StudentId);
+	Индекс мало/бесполезен: ДЗ-5.3.5 для create UNIQUE index Marks_StudentId_CourseId_Index on Marks using btree (StudentId, CourseId);
+	Индекс мало/бесполезен: ДЗ-5.3.5 для create UNIQUE index Marks_CourseId_StudentId_Index on Marks using btree (CourseId, StudentId);
+
+2.     Средний балл
+
+2.Q. Запрос
+
+2.I. Индексы
+
+	Не unique индекс (а должен): create index Students_GroupId_StudentId_Index on Students using btree (GroupId, StudentId);
+	Не unique индекс (а должен): create index Marks_CourseId_StudentId_Mark_Index on Marks using btree (CourseId, StudentId, Mark);
+	Не хватает индекса: create index on Groups using hash (GroupName);
+	Не хватает индекса: create index on Courses using btree (CourseName, CourseId);
+
+3.     Новые запросы
+
+3.1.Q. Запрос
+
+	Бесполезно без ограничения множества студентов
+	Использование идентификаторов место имён и названий
+
+3.1.I. Индексы
+
+	Ожидалось, что такой индекс будет обявлен в первом разделе
+
+3.2.Q. Запрос
+
+	Использование идентификаторов место имён и названий
+
+3.2.I. Индексы
+
+3.3.Q. Запрос
+
+	Не переносимо: COUNT(CourseId) > 0
+	Опечатка: count вместо exists
+
+3.3.I. Индексы
+
+	Полезность индекса не очевидна

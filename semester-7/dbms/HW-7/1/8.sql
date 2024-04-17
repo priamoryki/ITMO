@@ -1,0 +1,5 @@
+DELETE FROM Students WHERE StudentId NOT IN (
+    SELECT StudentId FROM Students NATURAL JOIN Plan NATURAL LEFT JOIN Marks
+    WHERE Mark IS NULL
+    GROUP BY StudentId HAVING COUNT(DISTINCT CourseId) > 2
+)

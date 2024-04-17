@@ -1,0 +1,111 @@
+1.
+StudentId -> StudentName, GroupId
+GroupId -> GroupName
+CourseId -> CourseName
+LecturerId -> LecturerName
+GroupId, CourseId -> LecturerId
+StudentId, CourseId -> Mark
+
+2.1.
+Замыкание всех атрибутов без StudentId не содержит StudentId:
+{StudentName, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark}^+ = {StudentName, GroupId, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark}.
+Значит, StudentId принадлежит всем надключам.
+Замыкание всех атрибутов без CourseId не содержит CourseId:
+{StudentId, StudentName, GroupId, GroupName, CourseName, LecturerId, LecturerName, Mark}^+ = {StudentId, StudentName, GroupId, GroupName, CourseName, LecturerId, LecturerName, Mark}.
+Значит, CourseId принадлежит всем надключам.
+Попробуем посчитать замыкание для {StudentId, CourseId}:
+1) {StudentId, CourseId}
+2) {StudentId, CourseId, StudentName, GroupId}
+3) {StudentId, CourseId, StudentName, GroupId, CourseName}
+4) {StudentId, CourseId, StudentName, GroupId, CourseName}
+5) {StudentId, CourseId, StudentName, GroupId, CourseName, LecturerId}
+6) {StudentId, CourseId, StudentName, GroupId, CourseName, LecturerId, LecturerName}
+7) {StudentId, CourseId, StudentName, GroupId, CourseName, LecturerId, LecturerName, Mark}
+Поскольку в замыкание вошли все атрибуты, {StudentId, CourseId} - надключ. С другой стороны, StudentId и CourseId должны содержаться в любом возможном надключе. Значит, мы получили минимальный по включению надключ; иными словами - ключ (более того единственный).
+
+2.2.
+StudentId, CourseId
+
+3.1.
+GroupId, CourseId
+GroupId, CourseId, GroupName
+GroupId, CourseId, GroupName, CourseName
+GroupId, CourseId, GroupName, CourseName, LecturerId
+GroupId, CourseId, GroupName, CourseName, LecturerId, LecturerName
+
+3.2.
+StudentId, CourseId
+StudentId, CourseId, StudentName, GroupId
+StudentId, CourseId, StudentName, GroupId, GroupName
+StudentId, CourseId, StudentName, GroupId, GroupName, CourseName,
+StudentId, CourseId, StudentName, GroupId, GroupName, CourseName, LecturerId
+StudentId, CourseId, StudentName, GroupId, GroupName, CourseName, LecturerId, LecturerName
+StudentId, CourseId, StudentName, GroupId, GroupName, CourseName, LecturerId, LecturerName, Mark
+
+3.3.
+StudentId, LecturerId
+StudentId, LecturerId, StudentName, GroupId
+StudentId, LecturerId, StudentName, GroupId, LecturerName
+StudentId, LecturerId, StudentName, GroupId, LecturerName, GroupName
+
+4.1d
+Расщепим правые части ФЗ.
+
+4.1r
+StudentId -> StudentName
+StudentId -> GroupId
+GroupId -> GroupName
+CourseId -> CourseName
+LecturerId -> LecturerName
+GroupId, CourseId -> LecturerId
+StudentId, CourseId -> Mark
+
+4.2d
+Из левой части ФЗ пытаемся исключить по одному атрибуту.
+Пробуем исключить GroupId из GroupId, CourseId -> LecturerId, для этого посчитаем замыкание множества {GroupId} над изначальным множеством ФЗ:
+1) {GroupId}
+2) {GroupId, GroupName}
+Очевидно, что замыкание над новым множеством ФЗ (содержащим GroupId -> LecturerId) имеет в себе LecturerId => замыкания над изначальным множеством ФЗ и конечным множеством ФЗ не равны => исключить нельзя.
+Пробуем исключить CourseId из GroupId, CourseId -> LecturerId, для этого посчитаем замыкание множества {CourseId} над изначальным множеством ФЗ:
+1) {CourseId}
+2) {CourseId, CourseName}
+Очевидно, что замыкание над новым множеством ФЗ (содержащим CourseId -> LecturerId) имеет в себе LecturerId => замыкания над изначальным множеством ФЗ и конечным множеством ФЗ не равны => исключить нельзя.
+
+Пробуем исключить StudentId из StudentId, CourseId -> Mark, для этого посчитаем замыкание множества {StudentId} над изначальным множеством ФЗ:
+1) {StudentId}
+2) {StudentId, StudentName}
+3) {StudentId, StudentName, GroupId}
+4) {StudentId, StudentName, GroupId, GroupName}
+Очевидно, что замыкание над новым множеством ФЗ (содержащим StudentId -> Mark) имеет в себе Mark => замыкания над изначальным множеством ФЗ и конечным множеством ФЗ не равны => исключить нельзя.
+Пробуем исключить StudentId из StudentId, CourseId -> Mark, для этого посчитаем замыкание множества {CourseId} над изначальным множеством ФЗ:
+1) {CourseId}
+2) {CourseId, CourseName}
+Очевидно, что замыкание над новым множеством ФЗ (содержащим CourseId -> Mark) имеет в себе Mark => замыкания над изначальным множеством ФЗ и конечным множеством ФЗ не равны => исключить нельзя.
+
+4.2r
+StudentId -> StudentName
+StudentId -> GroupId
+GroupId -> GroupName
+CourseId -> CourseName
+LecturerId -> LecturerName
+GroupId, CourseId -> LecturerId
+StudentId, CourseId -> Mark
+
+4.3d
+Проходимся по всем ФЗ и пытаемся удалить.
+Попробуем удалить StudentId -> StudentName. Считаем замыкание {StudentId} над множеством ФЗ без StudentId -> StudentName. Тогда в замыкании не может содержаться StudentName => удаление невозможно.
+Попробуем удалить StudentId -> GroupId. Считаем замыкание {StudentId} над множеством ФЗ без StudentId -> GroupId. Тогда в замыкании не может содержаться StudentName => удаление невозможно.
+Попробуем удалить GroupId -> GroupName. Считаем замыкание {GroupId} над множеством ФЗ без GroupId -> GroupName. Тогда в замыкании не может содержаться GroupName => удаление невозможно.
+Попробуем удалить CourseId -> CourseName. Считаем замыкание {CourseId} над множеством ФЗ без CourseId -> CourseName. Тогда в замыкании не может содержаться CourseName => удаление невозможно.
+Попробуем удалить LecturerId -> LecturerName. Считаем замыкание {LecturerId} над множеством ФЗ без LecturerId -> LecturerName. Тогда в замыкании не может содержаться LecturerName => удаление невозможно.
+Попробуем удалить GroupId, CourseId -> LecturerId. Считаем замыкание {GroupId, CourseId} над множеством ФЗ без GroupId, CourseId -> LecturerId. Тогда в замыкании не может содержаться LecturerId => удаление невозможно.
+Попробуем удалить StudentId, CourseId -> Mark. Считаем замыкание {StudentId, CourseId} над множеством ФЗ без StudentId, CourseId -> Mark. Тогда в замыкании не может содержаться Mark => удаление невозможно.
+
+4.3r
+StudentId -> StudentName
+StudentId -> GroupId
+GroupId -> GroupName
+CourseId -> CourseName
+LecturerId -> LecturerName
+GroupId, CourseId -> LecturerId
+StudentId, CourseId -> Mark

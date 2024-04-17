@@ -1,0 +1,158 @@
+StudentId -> StudentName, GroupId, GroupName;
+GroupId -> GroupName;
+GroupName -> GroupId;
+CourseId -> CourseName;
+LecturerId -> LecturerName;
+StudentId, CourseId -> Mark;
+GroupId, CourseId -> LecturerId, LecturerName.
+
+
+1.1.
+Все атрибуты отношения атомарны, в отношении нет повторяющихся групп, у отношения есть ключ {StudentId, CourseId} (находили в прошлом ДЗ).
+Значит отношение уже находится в 1НФ.
+
+1.2.
+(StudentId, StudentName, GroupId, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark) => (StudentId, StudentName, GroupId, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark).
+
+2.1.
+StudentName, GroupId, GroupName зависят только от StudentId. Декомпозируем по StudentId -> StudentName, GroupId, GroupName:
+(StudentId, StudentName, GroupId, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark) => (StudentId, StudentName, GroupId, GroupName); (CourseId, CourseName, StudentId, Mark, GroupId, LecturerId, LecturerName).
+LecturerId, LecturerName зависят от GroupId, CourseId. Декомпозируем по GroupId, CourseId -> LecturerId, LecturerName:
+(CourseId, CourseName, StudentId, Mark, GroupId, LecturerId, LecturerName) => (CourseId, CourseName, StudentId, Mark); (GroupId, CourseId, LecturerId, LecturerName).
+CourseName зависит только от CourseId. Декомпозируем по CourseId -> CourseName:
+(CourseId, CourseName, StudentId, Mark) => (CourseId, CourseName); (CourseId, StudentId, Mark).
+
+2.2.
+(StudentId, StudentName, GroupId, GroupName, CourseId, CourseName, LecturerId, LecturerName, Mark) => (StudentId, StudentName, GroupId, GroupName); (CourseId, CourseName); (CourseId, StudentId, Mark); (GroupId, CourseId, LecturerId, LecturerName).
+
+3.1.
+GroupName транзитивно зависит от ключа StudentId. Декомпозируем по GroupId -> GroupName:
+(StudentId, StudentName, GroupId, GroupName) => (StudentId, StudentName, GroupId); (GroupId, GroupName).
+LecturerName транзитивно зависит от ключа GroupId, CourseId. Декомпозируем по LecturerId -> LecturerName:
+(GroupId, CourseId, LecturerId, LecturerName) => (GroupId, CourseId, LecturerId); (LecturerId, LecturerName).
+
+3.2.
+(StudentId, StudentName, GroupId, GroupName) => (StudentId, StudentName, GroupId); (GroupId, GroupName).
+(CourseId, CourseName) => (CourseId, CourseName).
+(CourseId, StudentId, Mark) => (CourseId, StudentId, Mark).
+(GroupId, CourseId, LecturerId, LecturerName) => (GroupId, CourseId, LecturerId); (LecturerId, LecturerName).
+
+Б.1.
+Выпишем все ФЗ для каждого отношения из предыдущего пункта:
+StudentId -> StudentName, GroupId
+GroupId -> GroupName; GroupName -> GroupId
+CourseId -> CourseName
+CourseId, StudentId -> Mark
+GroupId, CourseId -> LecturerId
+LecturerId -> LecturerName
+Заметим, что все атрибуты стоящие слева являются ключами, следовательно все отношения НФБК.
+
+Б.2.
+(StudentId, StudentName, GroupId) => (StudentId, StudentName, GroupId).
+(GroupId, GroupName) => (GroupId, GroupName).
+(CourseId, CourseName) => (CourseId, CourseName).
+(CourseId, StudentId, Mark) => (CourseId, StudentId, Mark).
+(GroupId, CourseId, LecturerId) => (GroupId, CourseId, LecturerId).
+(LecturerId, LecturerName) => (LecturerId, LecturerName).
+
+4.1.
+Все отношения с простыми ключами и находящиеся в 3НФ являются 5НФ (Теорема Дейта-Фейгина). В нашем случае (StudentId, StudentName, GroupId), (GroupId, GroupName), (CourseId, CourseName), (LecturerId, LecturerName).
+Т.е. надо доказать, что (CourseId, StudentId, Mark), (GroupId, CourseId, LecturerId) тоже принадлежат 4НФ.
+Рассмотрим все возможные МЗ отношения (CourseId, StudentId, Mark):
+1) CourseId ->> StudentId | Mark. Противоречие: Если студенты S1 и S2 записаны на курс C1 за который получили оценки M1 и M2 (соответственно), то у студента S1 за курс C1 также стоит оценка M2.
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S2    |    C1   |   M2  |
+2) StudentId ->> CourseId | Mark. Противоречие: Если студент S1 получил оценки M1 и M2 за курсы C1 и C2 (соответственно), то у студента S1 за курс C1 также стоит оценка M2.
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S1    |    C2   |   M2  |
+3) Mark ->> StudentId | CourseId. Противоречие: Если студенты S1 и S2 записаны на курсы C1 и C2 (соответственно) за которые получили оценку M1, то у студента S1 за курс C2 стоит оценка M1 (хотя он на него не записан).
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S2    |    C2   |   M1  |
+4) {} ->> CourseId, StudentId | Mark. Противоречие: Если студенты S1 и S2 записаны на курсы C1 и C2 (соответственно) за которые получили оценки M1 и M2 (соответственно), то у студента S1 за курс C1 также стоит оценка M2.
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S2    |    C2   |   M2  |
+5) {} ->> StudentId, Mark | CourseId. Противоречие: Если студенты S1 и S2 записаны на курсы C1 и C2 (соответственно) за которые получили оценки M1 и M2 (соответственно), то у студента S1 за курс C2 стоит оценка M1 (хотя он на него не записан).
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S2    |    C2   |   M2  |
+6) {} ->> CourseId, Mark | StudentId. Противоречие: Если студенты S1 и S2 записаны на курсы C1 и C2 (соответственно) за которые получили оценки M1 и M2 (соответственно), то у студента S1 за курс C2 стоит оценка M2 (хотя он на него не записан).
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S2    |    C2   |   M2  |
+Следовательно не существует нетривиальной МЗ для разбиения отношения.
+Рассмотрим все возможные МЗ отношения (GroupId, CourseId, LecturerId):
+1) GroupId ->> CourseId | LecturerId. Противоречие: Если лекторы L1 и L2 ведут лекции у группы G1 по курсам C1 и C2 (соответственно), то лектор L1 также ведет лекции у группы G1 по курсу C2.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L2    |   G1   |    C2   |
+2) CourseId ->> GroupId | LecturerId. Противоречие: Если лекторы L1 и L2 ведут лекции у групп G1 и G2 (соответственно) по курсу C1, то лектор L1 также ведет лекции у группы G2 по курсу C1.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L2    |   G2   |    C1   |
+3) LecturerId ->> GroupId | CourseId. Противоречие: Если лектор L1 ведет лекции у групп G1 и G2 (соответственно) по курсам C1 и C2 (соответственно), то лектор L1 также ведет лекции у группы G1 по курсу C2.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L1    |   G2   |    C2   |
+4) {} ->> GroupId, CourseId | LecturerId. Противоречие: Если лекторы L1 и L2 ведут лекции у групп G1 и G2 (соответственно) по курсам C1 и C2 (соответственно), то лектор L1 ведет лекции у группы G2 по курсу C2.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L2    |   G2   |    C2   |
+5) {} ->> GroupId, LecturerId | CourseId. Противоречие: Если лекторы L1 и L2 ведут лекции у групп G1 и G2 (соответственно) по курсам C1 и C2 (соответственно), то лектор L1 ведет лекции у группы G1 по курсу C2.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L2    |   G2   |    C2   |
+6) {} ->> CourseId, LecturerId | GroupId. Противоречие: Если лекторы L1 и L2 ведут лекции у групп G1 и G2 (соответственно) по курсам C1 и C2 (соответственно), то лектор L1 ведет лекции у группы G2 по курсу C1.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L2    |   G2   |    C2   |
+Следовательно не существует нетривиальной МЗ для разбиения отношения.
+Все отношения в 4НФ.
+
+4.2.
+(StudentId, StudentName, GroupId) => (StudentId, StudentName, GroupId).
+(GroupId, GroupName) => (GroupId, GroupName).
+(CourseId, CourseName) => (CourseId, CourseName).
+(CourseId, StudentId, Mark) => (CourseId, StudentId, Mark).
+(GroupId, CourseId, LecturerId) => (GroupId, CourseId, LecturerId).
+(LecturerId, LecturerName) => (LecturerId, LecturerName).
+
+5.1.
+Отношения (StudentId, StudentName, GroupId), (GroupId, GroupName), (CourseId, CourseName), (LecturerId, LecturerName) уже в 5НФ по теореме Дейта-Фейгина.
+Заметим, что ЗС из 2 проекций мы уже рассмотрели (когда рассматривали МЗ). Тогда остается посмотреть ЗС из 3 проекций (1 вариант).
+(CourseId, StudentId); (CourseId, Mark); (StudentId, Mark). Противоречие: У студента S1 появляется оценка M2 за курс C1.
+______________________________
+| Students | Courses | Marks |
+|    S1    |    C1   |   M1  |
+|    S1    |    C2   |   M2  |
+|    S2    |    C1   |   M2  |
+(GroupId, CourseId); (GroupId, LecturerId); (CourseId, LecturerId). Противоречие: Лектор L1 ведет курс C2 у группы G1.
+________________________________
+| Lecturers | Groups | Courses |
+|     L1    |   G1   |    C1   |
+|     L1    |   G2   |    C2   |
+|     L2    |   G1   |    C2   |
+Все отношения в 5НФ.
+
+5.2.
+(StudentId, StudentName, GroupId) => (StudentId, StudentName, GroupId).
+(GroupId, GroupName) => (GroupId, GroupName).
+(CourseId, CourseName) => (CourseId, CourseName).
+(CourseId, StudentId, Mark) => (CourseId, StudentId, Mark).
+(GroupId, CourseId, LecturerId) => (GroupId, CourseId, LecturerId).
+(LecturerId, LecturerName) => (LecturerId, LecturerName).

@@ -1,0 +1,5 @@
+TeamsSolvedTask(TeamId) :- Sessions(SessionId, TeamId, :ContestId, _),
+                           Runs(_, SessionId, :Letter, _, 1).
+
+TeamsFailedTask(TeamName) :- Teams(TeamId, TeamName),
+                             not TeamsSolvedTask(TeamId).

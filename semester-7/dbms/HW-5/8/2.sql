@@ -1,0 +1,1 @@
+SELECT StudentName, SUM(Mark) AS SumMark FROM Students s LEFT JOIN Marks m ON m.StudentId = s.StudentId GROUP BY s.StudentId, StudentName

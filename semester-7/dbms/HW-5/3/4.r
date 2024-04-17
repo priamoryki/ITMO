@@ -1,0 +1,1 @@
+pi{StudentId, StudentName, GroupId}(sigma{Mark = :Mark && LecturerName = :LecturerName}(Students nj Marks nj Plan nj Lecturers))

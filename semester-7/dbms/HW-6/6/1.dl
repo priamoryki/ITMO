@@ -1,0 +1,5 @@
+HasMark(StudentId, CourseId) :- Marks(StudentId, CourseId, _).
+
+GroupHasNoMark(GroupId, CourseId) :- Students(StudentId, _, GroupId), Courses(CourseId, _), not HasMark(StudentId, CourseId).
+
+GroupHasMark(GroupId, CourseId) :- Groups(GroupId, _), Courses(CourseId, _), not GroupHasNoMark(GroupId, CourseId).
